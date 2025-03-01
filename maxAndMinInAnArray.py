@@ -31,19 +31,19 @@ print(sum)
 
 # a.reverse()
 # print(a)
+a.sort()
+ans =[]
+for i in range(len(a)-1,-1,-1):
+    ans.append(a[i])
+print(ans)
 
-# ans =[]
-# for i in range(len(a)-1,-1,-1):
-#     ans.append(a[i])
-# print(ans)
+# firsthalf= a[:len(a)//2]
+# firsthalf.sort()
 
-firsthalf= a[:len(a)//2]
-firsthalf.sort()
-
-secondhalf= a[len(a)//2:]
-secondhalf.sort()
-secondhalf.reverse()
-print(firsthalf+secondhalf)
+# secondhalf= a[len(a)//2:]
+# secondhalf.sort()
+# secondhalf.reverse()
+# print(firsthalf+secondhalf)
 
 # firsthalf= a[:len(a)//2]
 # firsthalf.sort()

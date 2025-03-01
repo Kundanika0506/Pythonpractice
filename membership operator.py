@@ -2,26 +2,26 @@ name = "Mainstream agency"
 for i in name:
     print(i)
 
-'''name2 = "Baden coffee"
+name2 = "Baden coffee"
 count = 0
 for i in name2:
     count += 1
-print(count)'''
+print(count)
 
-'''charact = "g"
+charact = "g"
 vowels = "aeiou"
 if(charact in vowels):
     print("vowel")
 else:
-    print("consonant")'''
+    print("consonant")
 
-'''name3 = "Madireddy"
+name3 = "Madireddy"
 vowels = "aeiouAEIOU"
 count = 0
 for i in name3:
     if i in vowels:
         count += 1
-print(count)'''
+print(count)
 
 name4 = "Windows"
 ans = ""

@@ -9,16 +9,16 @@ print(ans3)
 ans4 = name[:: -1]
 print(ans4)
 
-name2 = "Coca cola"
-ans5 = name2[7]
-print(ans5)
+# name2 = "Coca cola"
+# ans5 = name2[7]
+# print(ans5)
 
-print(len(name))
-print(len(name2))
+# print(len(name))
+# print(len(name2))
 
-x = "Banana milk"
-z = len(x)
-print(z)
+# x = "Banana milk"
+# z = len(x)
+# print(z)
 
 '''num1 = 0
 num2 = 100
@@ -44,8 +44,8 @@ for i in range(1, num+1):
     if(num%i ==0):
         print(i)'''
 
-num = 8
-ans6 = 1
-for i in range(1, num+1):
-    ans6 *= i
-    print(ans6)
+# num = 8
+# ans6 = 1
+# for i in range(1, num+1):
+#     ans6 *= i
+#     print(ans6)
