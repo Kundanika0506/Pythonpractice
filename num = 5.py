@@ -4,7 +4,7 @@ for i in range(1,num+1):
     sum += i
     print(sum)
 
-'''num1 = 86
+num1 = 86
 num2 = 40
 num3 = 16
 if(num1 > num2 and num1 > num3):
@@ -57,4 +57,4 @@ print(ans)
 
 name = "KundANIka"
 ans = name.swapcase()
-print(ans)'''
+print(ans)

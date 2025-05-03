@@ -20,33 +20,36 @@ thisdict.update(school="UW")
 print(thisdict)
 print(thisdict.popitem())
 print(thisdict)
+print(thisdict.pop("age"))
+print(thisdict["name"])
+print(thisdict.get("name"))
 
-my_data = {
-    "name":"Kundanika",
-    "age" : 18,
-    "Graduated":False,
-    "key":"value"
-}
+# my_data = {
+#     "name":"Kundanika",
+#     "age" : 18,
+#     "Graduated":False,
+#     "key":"value"
+# }
 
-print(type(my_data))
-my_data["age"] = 20
-my_second = my_data.copy()
-# print(my_second)
-print(my_data.get("name","NA"))
-print(my_data.items())
-print(my_data.keys())
-print(my_data.values())
+# print(type(my_data))
+# my_data["age"] = 20
+# my_second = my_data.copy()
+# # print(my_second)
+# print(my_data.get("name","NA"))
+# print(my_data.items())
+# print(my_data.keys())
+# print(my_data.values())
 
-rest_info = {
-    "lastName" : "Madireddy",
-    "middleName":""
-}
-my_data.update(rest_info)
-print(my_data)
-print(my_data.pop("Graduated"))
+# rest_info = {
+#     "lastName" : "Madireddy",
+#     "middleName":""
+# }
+# my_data.update(rest_info)
+# print(my_data)
+# print(my_data.pop("Graduated"))
 
-my_data.popitem()
-print(my_data)
+# my_data.popitem()
+# print(my_data)
 
 
 # arr = "kundanika"
